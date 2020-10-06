@@ -99,7 +99,7 @@ header .header__img {
 
 .carousel {
   width: 100%;
-  overflow: scroll;
+  /* overflow: scroll; */
   padding: 30px;
   position: relative;
   box-sizing: border-box;
@@ -154,4 +154,9 @@ header .header__img {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.carousel-item__details:hover {
+  opacity: 1;
+  color: white;
 }
