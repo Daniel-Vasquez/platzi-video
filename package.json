@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ejemplo": "sass papitas"
+    "ejemplo": "sass papitas",
+    "sass:buscador": "sass ./buscador/buscador.scss ./buscador/buscador.css" 
   },
   "author": "",
   "license": "ISC",

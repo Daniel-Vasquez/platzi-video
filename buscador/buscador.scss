@@ -1,10 +1,11 @@
 /* * {
   box-sizing: border-box;
 } */
+
 body {
   margin: 0;
   background-color: #8f57fd;
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 header {
@@ -37,7 +38,7 @@ header .header__img {
   margin: 0 0 0 -14px;
 }
 
-.header__menu:hover ul, ul:hover {
+.header__menu:hover ul, ul:hover{
   display: block;
 }
 
@@ -88,7 +89,7 @@ header .header__img {
   border: 2px solid white;
   border-radius: 15px;
   color: white;
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-size: 16px;
   height: 50px;
   padding: 0px 20px;
@@ -110,8 +111,7 @@ header .header__img {
   width: 90%;
   margin: 0 auto;
   /* overflow: scroll;  SCROLL horizontal y vertical */
-  overflow-y: hidden;
-  /*SCROLL SOLO HORIZONTAL*/
+  overflow-y:hidden; /*SCROLL SOLO HORIZONTAL*/
   scrollbar-width: none;
   padding: 30px;
   position: relative;
@@ -123,24 +123,22 @@ header .header__img {
   background: #ccc;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background: rgba(255, 255, 255, 0.4);
+  width: 8px; 
+  height: 8px;   
+  background:rgba(255,255,255,.4);
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar:hover {
   background: #b3b3b3;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
-
 ::-webkit-scrollbar:hover:active {
   background: #999;
 }
 
 /*------------Estilos para el SCROLL------------*/
+
 .carousel__container {
   white-space: nowrap;
   margin: 70px 0;
@@ -220,11 +218,9 @@ header .header__img {
   cursor: pointer;
   font-size: 14px;
   padding-left: 30px;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
-
-/*# sourceMappingURL=buscador.css.map */
