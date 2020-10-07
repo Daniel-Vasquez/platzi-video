@@ -75,6 +75,9 @@ body {
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 25px;
@@ -86,7 +89,7 @@ body {
   height: 50px;
   letter-spacing: 1px;
   margin: 10px 0px;
-  outline: none; /*YO se lo puse*/
+  text-decoration: none;
 }
 
 .login__container--cuenta {
@@ -99,7 +102,7 @@ body {
   text-decoration: none;
 }
 
-.login__container a:hover {
+.login__container--cuenta a:hover {
   text-decoration: underline;
 }
 

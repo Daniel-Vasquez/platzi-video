@@ -1,0 +1,14 @@
+{
+  "name": "curso-de-frontend-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ejemplo": "sass papitas"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.12"
+  }
+}
