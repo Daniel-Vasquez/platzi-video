@@ -122,3 +122,24 @@ body {
 .footer a:hover {
   text-decoration: underline; 
 }
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+    position: static;
+  }
+
+  .login__container {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
