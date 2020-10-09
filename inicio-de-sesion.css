@@ -1,13 +1,11 @@
 body {
   margin: 0;
   font-family: 'Muli', sans-serif;
-  /*-----YO se lo puse para que no tenga scroll------*/
   position: fixed; 
   top: 0; 
   right: 0; 
   left: 0; 
   bottom: 0; 
-  /*-----YO se lo puse para que no tenga scroll------*/
 }
 
 .header {
@@ -47,7 +45,7 @@ body {
   padding: 60px 68px 40px;
   min-height: 700px;
   width: 300px;
-  box-shadow: 0 0 20px 0 #000000ad; /*YO se lo puse*/
+  box-shadow: 0 0 20px 0 #000000ad; 
 }
 
 .login__container--form {
