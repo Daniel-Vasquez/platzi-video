@@ -2,7 +2,7 @@
 
 ### Website layout
 
-### Utilizando solo HTML y CSS
+### Using only HTML and CSS
 
 ### Using the BEM methodology for CSS
 
